@@ -19,6 +19,8 @@
     <modules>
         <module>eurekaserver</module>
         <module>eurekaclient</module>
+        <module>ribbon</module>
+        <module>eurekaclient2</module>
     </modules>
 
     <properties>

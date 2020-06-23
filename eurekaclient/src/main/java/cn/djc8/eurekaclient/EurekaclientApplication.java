@@ -1,5 +1,6 @@
 package cn.djc8.eurekaclient;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -15,9 +16,11 @@ public class EurekaclientApplication {
     public static void main(String[] args) {
         SpringApplication.run(EurekaclientApplication.class, args);
     }
+    @Value("${server.port}")
+    String portValue;
 
     @RequestMapping("/welcome")
     public String welcome(@RequestParam(value = "name", defaultValue = "cn.djc8.blog2") String name){
-        return name;
+        return name+" PORT:"+portValue;
     }
 }

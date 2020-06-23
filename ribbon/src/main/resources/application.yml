@@ -1,0 +1,14 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7001/eureka/
+server:
+  port: 7010
+spring:
+  application:
+    name: ribbon
+
+# 可以通过 服务名：ribbon:NFLoadBalancerRuleClassName: 对应的策略全类名
+SERVICE-PROVIDER:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule
