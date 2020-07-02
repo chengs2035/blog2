@@ -8,7 +8,7 @@ spring:
   application:
     name: ribbon
 
-# 可以通过 服务名：ribbon:NFLoadBalancerRuleClassName: 对应的策略全类名
+# 鍙互閫氳繃 鏈嶅姟鍚嶏細ribbon:NFLoadBalancerRuleClassName: 瀵瑰簲鐨勭瓥鐣ュ叏绫诲悕
 SERVICE-PROVIDER:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule
