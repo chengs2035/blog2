@@ -1,6 +1,6 @@
 spring:
   application:
-    name: config-client1
+    name: config-client
   cloud:
     config:
       label: master
