@@ -1,3 +1,8 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7001/eureka/
+
 spring:
   application:
     name: config-client
@@ -5,7 +10,8 @@ spring:
     config:
       label: master
       profile: dev
-      uri: http://localhost:7888/
+      discovery:
+        enabled: true
+        serviceId: configserver
 server:
   port: 7881
-
