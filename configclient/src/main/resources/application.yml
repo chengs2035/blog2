@@ -1,2 +1,19 @@
 foo: NaN
 
+spring:
+  rabbitmq:
+    #这里按照你环境的ip配置
+    host: 192.168.99.102
+    port: 30672
+    username: guest
+    password: guest
+  cloud:
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
