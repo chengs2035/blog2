@@ -2,7 +2,7 @@
 
 所有学习笔记，请从我的博客上进行查看[点击进入][11]
 
-![Java CI with Maven](https://github.com/chengs2035/blog2/workflows/Maven%E7%BC%96%E8%AF%91/badge.svg)
+[![Java CI with Maven](https://github.com/chengs2035/blog2/workflows/Maven%E7%BC%96%E8%AF%91/badge.svg)][13]
 
 
 
@@ -34,5 +34,5 @@
   [10]: https://djc8.cn/archives/installation-notes-of-rabbitmq-on-k8s-kubernetes-windows.html
   [11]:https://www.djc8.cn/mirror-server.html
   [12]:https://www.djc8.cn/archives/spring-cloud-learning-notes-9-service-link-tracking.html
-
+  [13]:https://github.com/chengs2035/blog2/actions
 
