@@ -24,6 +24,8 @@
         <module>zuulserver</module>
         <module>configserver</module>
         <module>configclient</module>
+        <module>zipkinfirst</module>
+        <module>zipkintwo</module>
     </modules>
 
     <properties>
